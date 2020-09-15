@@ -1,0 +1,13 @@
+#3 try.py
+import turtle as t
+t.bgcolor("black")
+sides = 6
+colors = ["green","purple","red","yellow","blue","orange"]
+for i in range(185):
+    t.pencolor(colors[i % sides])
+    t.fd(i * 3 / sides + i)
+    t.left(360 / sides + 1)
+    t.pensize(i * sides / 200)
+    
+    
+    
