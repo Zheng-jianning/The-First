@@ -16,6 +16,8 @@ turtle.circle(16,180)
 turtle.fd(40 * 2/3)
 turtle.done()
 
+或者
+
 #PythonDraw.py
 from turtle import*
 setup(650,350,200,200)
@@ -33,6 +35,8 @@ fd(40)
 circle(16,180)
 fd(40 * 2/3)
 done()
+
+或者
 
 #PythonDraw.py
 import turtle as t
